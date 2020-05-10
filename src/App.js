@@ -5,7 +5,7 @@ import Form from "./components/Form";
 import Weather from "./components/Weather";
 
 const API_KEY = process.env.REACT_APP_WEATHER_APP_API;
-const API_URL = "http://api.openweathermap.org/data/2.5/";
+const API_URL = "https://api.openweathermap.org/data/2.5/";
 class App extends Component {
   state = {
     temperature: undefined,
